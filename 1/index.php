@@ -51,9 +51,9 @@ function playSound(e) {
 
   function removeTranisition(e) {
     //console.log(e);
-    //if (e.proptertyName !== 'transform') return; // skip if not transform
+    if (e.proptertyName !== 'transform') return; // skip if not transform
     this.classList.remove('playing');
-    console.log(e.proptertyName);
+    //console.log(e.proptertyName);
   }
 
   const keys = document.querySelectorAll('.key');
