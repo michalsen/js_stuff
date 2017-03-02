@@ -1,5 +1,6 @@
 <html>
   <head>
+    <title>1</title>
   <style>
    .key {
     border: 1px solid black;
@@ -33,8 +34,8 @@
     <kbd>No</kbd>
   </div>
 </div>
-<audio data-key="78" src="sounds/n2.wav"></audio>
-<audio data-key="89" src="sounds/y2.wav"></audio>
+<audio data-key="78" src="1/sounds/n2.wav"></audio>
+<audio data-key="89" src="1/sounds/y2.wav"></audio>
 
 
 <script type="text/javascript">
